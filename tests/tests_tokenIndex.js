@@ -1,3 +1,7 @@
+/*  (C) 2020 FreightTrust and Clearing Corporation
+ *  This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at https://mozilla.org/MPL/2.0/. */
 function bytesVerify(proposed, bytes){ //proposed is the string to be checked, bytes is the byte size of the encoded data
   return ((typeof proposed == "string") && (proposed.length == 2*bytes+2) && isHexStrict(proposed))
 }
